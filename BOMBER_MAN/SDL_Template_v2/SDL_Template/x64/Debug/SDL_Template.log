@@ -1,0 +1,6 @@
+﻿  Game.cpp
+C:\Users\guill\Desktop\School\Session2\OOP\BOMBERMAN_ALPHA\BOMBER_MAN\SDL_Template_v2\SDL_Template\Game.cpp(257,104): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+  SDL_Template.vcxproj -> C:\Users\guill\Desktop\School\Session2\OOP\BOMBERMAN_ALPHA\BOMBER_MAN\SDL_Template_v2\x64\Debug\SDL_Template.exe
+  SDL2\lib\x64\SDL2.dll
+  SDL2\lib\x64\SDL2_image.dll
+          2 fichier(s) copié(s).

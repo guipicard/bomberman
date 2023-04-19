@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.10)
+project(Bomberman_Alpha)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
+
+find_package(SDL2 REQUIRED)
+include_directories(${SDL2_INCLUDE_DIRS})
+
+add_executable(BOMBER_MAN SDL_Template_v2 SDL_Template main.cpp)
+
+target_link_libraries(Bomberman_Alpha ${SDL2_LIBRARIES})
